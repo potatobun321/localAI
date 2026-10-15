@@ -66,7 +66,7 @@ def run_cli():
         try:
             user_input = input("\nYou: ").strip()
         except (KeyboardInterrupt, EOFError):
-            print("\nGoodbye! 👋")
+            print("\nGoodbye.")
             break
 
         if not user_input:
@@ -74,7 +74,7 @@ def run_cli():
 
         cmd = user_input.lower()
         if cmd in ["quit", "exit", "q", "/quit", "/exit"]:
-            print("Goodbye! 👋")
+            print("Goodbye.")
             break
         elif cmd in ["clear", "/clear"]:
             engine.clear_history()
