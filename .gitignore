@@ -1,0 +1,15 @@
+# Virtual environments
+minicpm-env/
+venv/
+.venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS and logs
+.DS_Store
+*.log
